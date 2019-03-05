@@ -60,10 +60,10 @@ set splitbelow
 set splitright
 
 " resize current buffer by +/- 5
-nnoremap <C-left> :vertical resize -5<cr>
-nnoremap <C-down> :resize +5<cr>
-nnoremap <C-up> :resize -5<cr>
-nnoremap <C-right> :vertical resize +5<cr>
+nnoremap <S-left> :vertical resize -5<cr>
+nnoremap <S-down> :resize +5<cr>
+nnoremap <S-up> :resize -5<cr>
+nnoremap <S-right> :vertical resize +5<cr>
 
 " don't wrap
 set nowrap
